@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lo que siento por ti</title>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+body{
+  font-family:'Inter', sans-serif;
+  background:linear-gradient(135deg,#f3e8ff,#ffe4f0);
+  color:#3b2f4a;
+  scroll-behavior:smooth;
+}
+
+nav{
+  background:white;
+  box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+nav a{
+  color:#7c3aed !important;
+  font-weight:500;
+}
+
+nav a:hover{
+  color:#a855f7 !important;
+}
+
+.hero{
+  padding:120px 20px 80px;
+  text-align:center;
+}
+
+.hero h1{
+  font-family:'Playfair Display', serif;
+  color:#6d28d9;
+  font-size:2.8rem;
+}
+
+.btn-main{
+  background:#c084fc;
+  color:white;
+  border:none;
+  padding:0.8rem 1.8rem;
+  border-radius:999px;
+  font-weight:500;
+  transition:.3s;
+}
+
+.btn-main:hover{
+  background:#a855f7;
+}
+
+section{
+  padding:80px 0;
+}
+
+.card-custom{
+  background:white;
+  border-radius:20px;
+  padding:2rem;
+  box-shadow:0 10px 30px rgba(124,58,237,0.1);
+}
+
+h2{
+  font-family:'Playfair Display', serif;
+  color:#6d28d9;
+  margin-bottom:1rem;
+}
+
+.img-custom{
+  border-radius:15px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.15);
+  width:100%;
+}
+
+footer{
+  text-align:center;
+  padding:40px;
+  color:#6b21a8;
+}
+
+/* Botón volver */
+.btn-back{
+  position:fixed;
+  bottom:90px;
+  right:20px;
+  z-index:1000;
+}
+
+/* Barra música romántica */
+.music-container{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  padding:15px;
+}
+
+.music-box{
+  background:white;
+  border-radius:40px;
+  padding:10px 20px;
+  box-shadow:0 10px 25px rgba(255,105,180,0.3);
+  display:flex;
+  align-items:center;
+  gap:15px;
+  border:2px solid #f9a8d4;
+}
+
+/* Corazón animado */
+.heart{
+  font-size:22px;
+  animation:beat 1.2s infinite;
+  color:#ec4899;
+}
+
+@keyframes beat{
+  0%,100%{ transform:scale(1); }
+  50%{ transform:scale(1.2); }
+}
+
+.music-box span{
+  font-weight:500;
+  color:#7c3aed;
+}
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Emily 💜</a>
+    <div>
+      <a class="me-3" href="#enamore">Me enamoré</a>
+      <a class="me-3" href="#seguir">Decido seguir</a>
+      <a class="me-3" href="#ella">Por qué tú</a>
+      <a href="#feliz">Me haces feliz</a>
+    </div>
+  </div>
+</nav>
+
+<div class="hero">
+  <h1>Hay cosas que necesitaba decirte</h1>
+  <p class="mt-3">No son palabras grandes. Son palabras honestas.</p>
+  <a href="#enamore" class="btn btn-main mt-4">Leer más 💜</a>
+</div>
+
+<section id="enamore">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <div class="card-custom">
+          <h2>Por qué me enamoré</h2>
+          <p>
+            Me enamoré porque contigo no tengo que fingir.<br>
+            Porque nuestras conversaciones tienen profundidad.<br>
+            Porque contigo me siento escuchado.<br>
+            Y porque desde el inicio sentí algo distinto.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="WhatsApp Image 2026-02-17 at 6.39.33 PM.jpeg" class="img-custom">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="seguir">
+  <div class="container">
+    <div class="row align-items-center flex-md-row-reverse">
+      <div class="col-md-6">
+        <div class="card-custom">
+          <h2>Por qué decido seguir</h2>
+          <p>
+            Porque lo nuestro es real.<br>
+            Porque prefiero construir contigo.<br>
+            Porque incluso en los días difíciles, elijo quedarme.<br>
+            Porque creo en lo que podemos lograr.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="WhatsApp Image 2026-02-17 at 6.39.33 PM (3).jpeg" class="img-custom">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ella">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <div class="card-custom">
+          <h2>Por qué tú</h2>
+          <p>
+            Porque tu carácter me atrae.<br>
+            Porque tu sensibilidad me conecta.<br>
+            Porque no eres superficial.<br>
+            Porque contigo siento algo que no sentí antes.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="WhatsApp Image 2026-02-17 at 6.39.33 PM (2).jpeg" class="img-custom">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="feliz">
+  <div class="container">
+    <div class="card-custom text-center">
+      <h2>Lo feliz que me haces</h2>
+      <p>
+        Me haces sentir elegido.<br>
+        Me haces sentir importante.<br>
+        Me haces sentir paz.<br><br>
+        Y eso no es algo pequeño.
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  Cinco meses contigo, y quiero más 💜
+</footer>
+
+<!-- Botón volver página anterior -->
+<button onclick="history.back()" class="btn btn-main btn-back">
+  ⬅ Volver
+</button>
+
+<!-- Música romántica -->
+<div class="music-container">
+  <div class="music-box">
+    <div class="heart">💖</div>
+    <span>Nuestra canción</span>
+    <audio controls>
+      <source src="WhatsApp Audio 2026-02-17 at 8.21.01 PM.mpeg" type="audio/mpeg">
+    </audio>
+  </div>
+</div>
+
+</body>
+</html>
