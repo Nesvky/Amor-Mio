@@ -1,2 +1,0 @@
-# Amor-Mio
-Querida Emily
